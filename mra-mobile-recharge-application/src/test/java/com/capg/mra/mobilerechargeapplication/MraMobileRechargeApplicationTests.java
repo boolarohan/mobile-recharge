@@ -77,8 +77,8 @@ class MraMobileRechargeApplicationTests {
 //	}
 	
 	
-	 @Test void testAddPlans() { Plans plans = plansService.addPlans(plans1);
-	 assertEquals(true, plans!=null); }
+//	 @Test void testAddPlans() { Plans plans = plansService.addPlans(plans1);
+//	 assertEquals(true, plans!=null); }
 	 
 	
 	
@@ -91,11 +91,11 @@ class MraMobileRechargeApplicationTests {
 	 
 	 
 	
-	@Test
-	void testLoginAdmin() {
-		Admin admin = adminService.addAdmin(admin1);
-		assertEquals(true,admin!=null);
-	}
+//	@Test
+//	void testLoginAdmin() {
+//		Admin admin = adminService.addAdmin(admin1);
+//		assertEquals(true,admin!=null);
+//	}
 	
 
 }
